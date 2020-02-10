@@ -10,7 +10,7 @@
         android:id="@+id/textBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello TJ!"
+        android:text="@string/text_box_label"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -23,7 +23,7 @@
         android:hint="@string/name_hint"
         app:layout_constraintTop_toBottomOf="@+id/textBox"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/response2EditText"
         />
     <EditText
         android:id="@+id/response2EditText"
@@ -38,7 +38,7 @@
         android:id="@+id/clickButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/click_button"
+        android:text="@string/submit_button"
         android:textColor="#318214"
         android:textAllCaps="true"
         app:layout_constraintTop_toBottomOf="@+id/responseEditText"
