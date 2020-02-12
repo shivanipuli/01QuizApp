@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 System.out.println("Hello mom");
                 Log.i("displayText", ""+displayText.getText());
+                displayText.setText(displayText.getText()+" " + responseText.getText());
+
             }
         });
         responseText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
